@@ -5,14 +5,15 @@ import { Users, Calendar, MapPin, Shirt } from 'lucide-react';
 const ClubsEvents = () => {
   const { isDark } = useTheme();
 
-  const clubs = [
-    { name: 'Tech Club', members: 150, focus: 'Technology & Innovation' },
-    { name: 'Cultural Society', members: 200, focus: 'Arts & Culture' },
-    { name: 'Sports Club', members: 180, focus: 'Sports & Fitness' },
-    { name: 'Debate Society', members: 90, focus: 'Public Speaking' },
-    { name: 'Music Club', members: 120, focus: 'Musical Arts' },
-    { name: 'Photography Club', members: 100, focus: 'Visual Arts' },
+    const clubs = [
+    { name: 'Tech Club', members: 150, focus: 'Codex, Cyber Hunter, GDG, MLSA' },
+    { name: 'Cultural Club', members: 200, focus: 'Theatre, Music, Dance, Art Society' },
+    { name: 'Sports Club', members: 180, focus: 'Cricket, Football, Badminton, Athletics' },
+    { name: 'Literary Club', members: 120, focus: 'Debate, Poetry, Writing Society' },
+    { name: 'Social Club', members: 140, focus: 'Pahal, Anti-Ragging Cell, NSS' },
+    { name: 'Music & Dance Club', members: 160, focus: 'Music Crew, Dance Crew, Band' },
   ];
+
 
   const events = [
     {
